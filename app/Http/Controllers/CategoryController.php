@@ -15,4 +15,9 @@ class CategoryController extends Controller
         $movies = Category::with(['movie'])->get();
         return $movies;
     }
+
+    public function getCategoriesPage(){
+        $categories = Category::all();
+        return view('categories', ["categories"=>$categories]);
+    }
 }
