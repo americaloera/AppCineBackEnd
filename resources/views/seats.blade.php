@@ -6,6 +6,7 @@
   <title>Asientos</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+  @laravelPWA
   <style>
     /* Estilos adicionales para la representación de asientos */
     .asiento {
